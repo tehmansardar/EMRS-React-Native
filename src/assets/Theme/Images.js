@@ -1,4 +1,6 @@
 const Images = {
+  profile: require('../images/profile.jpeg'),
+  background: require('../images/background.png'),
   clinic: require('../images/clinic.png'),
   Doctor: require('../images/Doctor.png'),
   General: require('../images/General.png'),
