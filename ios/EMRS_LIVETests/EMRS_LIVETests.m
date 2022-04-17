@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface EMRSTests : XCTestCase
+@interface EMRS_LIVETests : XCTestCase
 
 @end
 
-@implementation EMRSTests
+@implementation EMRS_LIVETests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

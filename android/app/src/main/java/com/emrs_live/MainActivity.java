@@ -1,4 +1,4 @@
-package com.emrs;
+package com.emrs_live;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -12,7 +12,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "EMRS";
+    return "EMRS_LIVE";
   }
 
   /**

@@ -1,4 +1,4 @@
-package com.emrs.newarchitecture.components;
+package com.emrs_live.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

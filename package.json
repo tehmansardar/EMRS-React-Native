@@ -1,5 +1,5 @@
 {
-  "name": "EMRS",
+  "name": "EMRS_LIVE",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "17.0.2",
     "react-native": "0.68.1",
+    "react-native-eject": "^0.1.2",
     "react-native-vector-icons": "^9.1.0"
   },
   "devDependencies": {
