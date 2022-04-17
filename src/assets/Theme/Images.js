@@ -4,6 +4,7 @@ const Images = {
   clinic: require('../images/clinic.png'),
   Doctor: require('../images/Doctor.png'),
   General: require('../images/General.png'),
+  injury: require('../images/injury.png'),
   Illustration: require('../images/Illustration.png'),
   kit: require('../images/kit.png'),
   Medical_History: require('../images/Medical-History.png'),

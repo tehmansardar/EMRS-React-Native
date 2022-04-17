@@ -9,6 +9,10 @@ import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
 
 import Menus from '../../components/Menus';
 
+import HealthMonitor from '../../components/HealthMonitor';
+
+import MedicalRecords from '../../components/MedicalRecords';
+
 const PatientCare = () => {
   return (
     <ScrollView style={styles.scrollview}>
@@ -20,6 +24,8 @@ const PatientCare = () => {
       </ImageBackground>
       <View style={{justifyContent: 'center', alignItems: 'center'}}>
         <Menus />
+        <HealthMonitor />
+        <MedicalRecords />
       </View>
     </ScrollView>
   );

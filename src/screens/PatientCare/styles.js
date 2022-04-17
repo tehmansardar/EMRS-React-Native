@@ -5,7 +5,7 @@ const {width, height} = Dimensions.get('window');
 import {Colors, Fonts} from '../../assets/Theme';
 
 const styles = StyleSheet.create({
-  scrollview: {flex: 1, height: height - 50},
+  scrollview: {flex: 1},
 
   background: {
     width: '100%',
