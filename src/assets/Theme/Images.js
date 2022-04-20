@@ -17,5 +17,7 @@ const Images = {
   tab1: require('../images/tab1.png'),
   tablet: require('../images/tablet.png'),
   room: require('../images/room.png'),
+
+  pharma: require('../images/pharma.png'),
 };
 export default Images;
