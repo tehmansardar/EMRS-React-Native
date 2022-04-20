@@ -16,5 +16,6 @@ const Images = {
   Stehoscope: require('../images/Stehoscope.png'),
   tab1: require('../images/tab1.png'),
   tablet: require('../images/tablet.png'),
+  room: require('../images/room.png'),
 };
 export default Images;

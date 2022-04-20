@@ -6,6 +6,7 @@ import styles from './styles';
 import Items from './Items';
 
 import {Images} from '../../assets/Theme';
+import Hospital from '../Hospitals/Hospital';
 
 const list = [
   {
