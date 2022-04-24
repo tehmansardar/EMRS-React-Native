@@ -17,7 +17,15 @@ import CustomIcon from '../../components/CustomIcon';
 import Prescribed from '../../components/Prescribed';
 import Pharmacies from '../../components/Pharmacies';
 
+import Boarding from '../../components/Boarding';
+
 const Pharmacy = () => {
+  const slides = [
+    {id: '1', image: Images.unsplash},
+    {id: '2', image: Images.unsplash},
+    {id: '3', image: Images.unsplash},
+  ];
+
   return (
     <ScrollView style={styles.scrollview}>
       <ImageBackground source={Images.background} style={styles.background}>
@@ -47,6 +55,9 @@ const Pharmacy = () => {
         </View>
         <View style={styles.mainTitleContainer}>
           <Text style={styles.mainTitle}>Pharmacy</Text>
+        </View>
+        <View style={{alignItems: 'center'}}>
+          <Boarding slides={slides} />
         </View>
       </ImageBackground>
       <View style={{justifyContent: 'center'}}>

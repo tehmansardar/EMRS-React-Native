@@ -19,5 +19,6 @@ const Images = {
   room: require('../images/room.png'),
 
   pharma: require('../images/pharma.png'),
+  unsplash: require('../images/unsplash-1.png'),
 };
 export default Images;

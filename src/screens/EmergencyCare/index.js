@@ -16,7 +16,15 @@ import CustomIcon from '../../components/CustomIcon';
 
 import Hospitals from '../../components/Hospitals';
 
+import Boarding from '../../components/Boarding';
+
 const EmergencyCare = () => {
+  const slides = [
+    {id: '1', image: Images.unsplash},
+    {id: '2', image: Images.unsplash},
+    {id: '3', image: Images.unsplash},
+  ];
+
   return (
     <ScrollView style={styles.scrollview}>
       <ImageBackground source={Images.background} style={styles.background}>
@@ -39,9 +47,12 @@ const EmergencyCare = () => {
         <View style={styles.mainTitleContainer}>
           <Text style={styles.mainTitle}>Emergency Care</Text>
         </View>
+        <View style={{alignItems: 'center'}}>
+          <Boarding slides={slides} />
+        </View>
       </ImageBackground>
       <View style={{justifyContent: 'center', alignItems: 'center'}}>
-        <Hospitals />
+        <Hospitals slides={slides} />
       </View>
     </ScrollView>
   );

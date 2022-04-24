@@ -9,25 +9,32 @@
 import React from 'react';
 import {SafeAreaView, ScrollView, StatusBar, StyleSheet} from 'react-native';
 
-import Fonts from './src/assets/Theme/Fonts';
-import Colorss from './src/assets/Theme/Colors';
-
-import PatientCare from './src/screens/PatientCare';
+// import PatientCare from './src/screens/PatientCare';
+// import EmergencyCare from './src/screens/EmergencyCare';
+import Pharmacy from './src/screens/Pharmacy';
+import Laboratory from './src/screens/Laboratory';
+// import PharmacyProduct from './src/screens/PharmacyProduct';
+import Booking from './src/screens/Booking';
 
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar />
-      <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <PatientCare />
-      </ScrollView>
+      <StatusBar hidden />
+      {/* <ScrollView contentInsetAdjustmentBehavior="automatic"> */}
+      {/* <PatientCare /> */}
+      {/* <EmergencyCare /> */}
+      <Pharmacy />
+      {/* <Laboratory /> */}
+      {/* <PharmacyProduct /> */}
+      {/* <Booking /> */}
+      {/* </ScrollView> */}
     </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#FFF',
+    backgroundColor: '#E5E5E5',
     flex: 1,
   },
 });
