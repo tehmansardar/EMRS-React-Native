@@ -11,10 +11,14 @@ import {SafeAreaView, ScrollView, StatusBar, StyleSheet} from 'react-native';
 
 // import PatientCare from './src/screens/PatientCare';
 // import EmergencyCare from './src/screens/EmergencyCare';
-import Pharmacy from './src/screens/Pharmacy';
-import Laboratory from './src/screens/Laboratory';
+// import Pharmacy from './src/screens/Pharmacy';
+// import Laboratory from './src/screens/Laboratory';
 // import PharmacyProduct from './src/screens/PharmacyProduct';
-import Booking from './src/screens/Booking';
+// import Booking from './src/screens/Booking';
+
+// import Prescription from './src/screens/Prescription';
+
+import UploadDoc from './src/screens/UploadDoc';
 
 const App = () => {
   return (
@@ -23,10 +27,12 @@ const App = () => {
       {/* <ScrollView contentInsetAdjustmentBehavior="automatic"> */}
       {/* <PatientCare /> */}
       {/* <EmergencyCare /> */}
-      <Pharmacy />
+      {/* <Pharmacy /> */}
       {/* <Laboratory /> */}
       {/* <PharmacyProduct /> */}
       {/* <Booking /> */}
+      {/* <Prescription /> */}
+      <UploadDoc />
       {/* </ScrollView> */}
     </SafeAreaView>
   );
